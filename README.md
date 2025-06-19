@@ -1,6 +1,6 @@
 # Get Started Anywhere
 
-Script to setup a newly installed Linux device to exactly what I need.
+Scripts to setup a newly installed Linux device to exactly what I need.
 
 At the moment only for Fedora with Gnome, more will be added when I need it.
 
