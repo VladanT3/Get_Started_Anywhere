@@ -1,0 +1,73 @@
+[appindicator]
+icon-brightness=0.0
+icon-contrast=0.0
+icon-opacity=240
+icon-saturation=0.0
+icon-size=0
+
+[blur-my-shell]
+settings-version=2
+
+[blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[blur-my-shell/coverflow-alt-tab]
+pipeline='pipeline_default'
+
+[blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.59999999999999998
+pipeline='pipeline_default_rounded'
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+
+[blur-my-shell/lockscreen]
+pipeline='pipeline_default'
+
+[blur-my-shell/overview]
+pipeline='pipeline_default'
+
+[blur-my-shell/panel]
+brightness=0.59999999999999998
+pipeline='pipeline_default'
+sigma=30
+
+[blur-my-shell/screenshot]
+pipeline='pipeline_default'
+
+[blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
+
+[space-bar/appearance]
+active-workspace-border-radius=4
+active-workspace-border-width=0
+active-workspace-text-color='rgb(212,190,152)'
+application-styles='.space-bar {\n  -natural-hpadding: 7px;\n}\n\n.space-bar-workspace-label.active {\n  margin: 0 4px;\n  background-color: rgba(255,255,255,0.3);\n  color: rgb(212,190,152);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n}\n\n.space-bar-workspace-label.inactive {\n  margin: 0 4px;\n  background-color: rgba(0,0,0,0);\n  color: rgb(212,190,152);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n}\n\n.space-bar-workspace-label.inactive.empty {\n  margin: 0 4px;\n  background-color: rgba(0,0,0,0);\n  color: rgb(212,190,152);\n  border-color: rgba(0,0,0,0);\n  font-weight: 700;\n  border-radius: 4px;\n  border-width: 0px;\n  padding: 3px 8px;\n}'
+empty-workspace-border-radius=4
+empty-workspace-border-width=0
+empty-workspace-text-color='rgb(212,190,152)'
+inactive-workspace-border-radius=4
+inactive-workspace-border-width=0
+inactive-workspace-text-color='rgb(212,190,152)'
+workspace-margin=4
+workspaces-bar-padding=7
+
+[space-bar/behavior]
+always-show-numbers=false
+
+[space-bar/shortcuts]
+activate-empty-key=@as []
+activate-previous-key=@as []
+enable-activate-workspace-shortcuts=false
+move-workspace-left=@as []
+move-workspace-right=@as []
+open-menu=@as []
+
+[space-bar/state]
+version=33
+
+[user-theme]
+name='Gruvbox-Dark-Soft'
