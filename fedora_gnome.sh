@@ -71,7 +71,7 @@ cd ~
 
 # Gnome customization
 echo "Setting up Gnome for cusotmizing"
-cd get_started_anywhere
+cd Get_Started_Anywhere
 dconf load /org/gnome/shell/extensions/ <"gnome_config.txt"
 cd ~
 mkdir -p .config/gtk-3.0
