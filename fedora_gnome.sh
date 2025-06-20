@@ -39,6 +39,9 @@ rpm_packages=(
     zsh
     gnome-tweaks
     fragments
+    gtk-murrine-engine
+    sassc
+    gnome-themes-extra
 )
 flatpak_packages=(
     com.usebottles.bottles
@@ -84,8 +87,14 @@ echo "Setting up Gnome..."
 cd Get_Started_Anywhere
 dconf load /org/gnome/shell/extensions/ <gnome_config.conf
 dconf load / <gnome_keybindings.conf
+dconf load /org/gnome/desktop/interface/ <gnome_extra_settings.conf
 cd ~
+
+# Theme, Icons and Cursor
+echo "Installing theme, icons and cursor..."
 mkdir -p .config/gtk-3.0
 mkdir -p .config/gtk-4.0
+mkdir -p .themes
+mkdir -p .icons
 
 echo "Done, have fun!"

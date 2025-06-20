@@ -27,4 +27,3 @@ dconf dump /org/gnome/settings-daemon/plugins/media-keys/ >> gnome-keybindings.c
 dconf dump /org/gnome/shell/keybindings/ >> gnome-keybindings.conf\
 dconf dump /org/gnome/mutter/keybindings/ >> gnome-keybindings.conf
 ```
-```
