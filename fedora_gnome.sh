@@ -34,6 +34,7 @@ curl https://sh.rustup.rs -sSf | sh
 # RPM Packages
 sudo dnf copr enable -y pgdev/ghostty
 rpm_packages=(
+    vim
     go
     python3
     pip
