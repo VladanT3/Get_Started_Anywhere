@@ -72,10 +72,9 @@ done
 
 # Clone Neovim config
 echo "Setting up Neovim..."
-mkdir -p .config/nvim
-cd .config
-git clone git@github.com:VladanT3/neovim_config.git nvim
-cd nvim
+mkdir -p ~/.config/nvim
+git clone git@github.com:VladanT3/neovim_config.git ~/.config/nvim
+cd ~/.config/nvim
 git switch lazynvim
 cd ~
 
@@ -85,27 +84,10 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 # Clone dotfiles repo
 echo "Setting up dotfiles..."
 git clone git@github.com:VladanT3/dotfiles.git
-mkdir -p .config/ghostty
-mkdir -p .config/ohmyposh
-cd dotfiles
+mkdir -p ~/.config/ghostty
+mkdir -p ~/.config/ohmyposh
+cd ~/dotfiles
 stow .
 cd ~
-
-# Gnome customization
-# NOTE: Commands work if the extensions are installed beforehand
-echo "Setting up Gnome..."
-cd Get_Started_Anywhere
-dconf load /org/gnome/shell/extensions/ <gnome_config.conf
-# Keybindings did not work
-# dconf load / <gnome_keybindings.conf
-dconf load /org/gnome/desktop/interface/ <gnome_extra_settings.conf
-cd ~
-
-# Theme, Icons and Cursor
-echo "Installing theme, icons and cursor..."
-mkdir -p .config/gtk-3.0
-mkdir -p .config/gtk-4.0
-mkdir -p .themes
-mkdir -p .icons
 
 echo "Done, have fun!"
