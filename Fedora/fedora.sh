@@ -47,7 +47,6 @@ rpm_packages=(
     stow
     zsh
     gnome-tweaks
-    fragments
     gtk-murrine-engine
     sassc
     gnome-themes-extra
